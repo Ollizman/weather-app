@@ -1,38 +1,140 @@
-.App {
+.header {
+  font-size: 23pt;
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
+  border-style: solid!important;
+  border: 2px;
+  border-color: #E6E6E6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+  margin-top: 0px!important;
+  margin-bottom: 15px!important;
+  background-color: #ffffff;
+  border-style: solid!important;
+  border: 2px;
+  border-color: #E6E6E6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.dropDown {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.dropDown select {
+  border-style: solid!important;
+  border: 2px;
+  border-color: #E6E6E6;
+  font-size: 13pt;
+  color: #262626;
+  padding: 0 15px 0 15px;
+}
+
+.singleForecast {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  color: #70757A;
+  background-color: #ffffff;
+  border-style: solid!important;
+  border: 2px;
+  border-color: #E6E6E6;
+}
+
+.forecastTemp {
+  font-size: 15pt;
+}
+
+.forecastHeader {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  font-size: 13pt;
+  border-bottom: 0px;
+  border-bottom-left-radius: 0!important;
+  border-bottom-right-radius: 0!important;
+}
+
+.forecastFooter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10pt;
+  background-color: #E5F6FD;
+  border-top-left-radius: 0!important;
+  border-top-right-radius: 0!important;
+}
+
+.currentLocation {
+  font-size: 19pt;
+  color: #262626;
+}
+
+.currentWeather {
+  font-size: 13pt;
+  color: #70757A;
+}
+
+.currentTemp {
+  text-align: right;
+  font-size: 26pt;
+  color: #262626;
+}
+
+.currentInfo {
+  text-align: right;
+  font-size: 13pt;
+  color: #70757A;
+}
+
+.currentDay {
+  font-size: 15pt;
+  color: #262626;
+}
+
+.currentTime {
+  font-size: 13pt;
+  color: #70757A;
+}
+
+.currentDatetime {
+  bottom: 0!important;
+}
+
+.paddingBottom {
+  padding-bottom: 10px;
+}
+
+.bottom-margin-fifty {
+  margin-bottom: 50px;
+}
+
+
+
+@media only screen and (max-width: 374px) {
+  .fiveMarginLR {
+    margin: 0 0px 0 0px;
+    padding: 0;
+  }
+  
+  .noOverflow {
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 375px) {
+  .fiveMarginLR {
+    margin: 0 5px 0 5px;
+    padding: 0;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .noOverflow {
+    margin-right: -5px;
+    margin-left: -5px;
   }
 }
