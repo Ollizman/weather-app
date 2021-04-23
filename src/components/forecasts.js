@@ -12,9 +12,9 @@ class Forecasts extends React.Component {
 
     componentDidMount() {
         const { id } = this.props
-        getForecast(id).then(res =>
-            this.setState({ forecasts: res.data.list })
-        );
+        getForecast(id).then(
+            res => this.setState({ forecasts: res.data.list })
+        )
     }
 
     render() {
